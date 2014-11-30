@@ -43,9 +43,6 @@ import.fn.data1<-function(mydir, yr, program, mytables=all.tables) {
   rawdata<-lapply(mypaths, read.dbf, as.is=T)
   names(rawdata)<-mytables
   
-  # repeat above for each year...
-  # change column properties for each table... separate functions?
-  # when done, return data list (for now - globally assign fndata since 'so far so good' is in place)
   rawdata
   
 }

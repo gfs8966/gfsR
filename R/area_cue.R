@@ -2,8 +2,8 @@
 #' @description makes area cue
 #' @export
 
-area.cue <- function (NorC, fn121, fn123, psuedo=T) {
-#  site.CUE<-site.cue{NorC, fn121, fn123, psuedo=T}
+area.cue <- function (NorW, fn121, fn123, psuedo=T) {
+#  site.CUE<-site.cue{NorW, fn121, fn123, psuedo=T}
 #  
 #  if ('CUEW' %in% names(site.CUE)) {names(site.CUE$CUEW<-"CATSTAN")}
 #  if ('CUE' %in% names(site.CUE)) {names(site.CUE$CUE<-"CATSTAN")}

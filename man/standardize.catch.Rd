@@ -3,7 +3,7 @@
 \alias{standardize.catch}
 \title{standardize.catch}
 \usage{
-standardize.catch(NorW, fn121, fn123, netnights = FALSE)
+standardize.catch(NorW, fn121, fn123, netnights = FALSE, autofill = F)
 }
 \arguments{
 \item{NorW}{specifies 'CATCNT' or 'CATWT'}
@@ -11,6 +11,10 @@ standardize.catch(NorW, fn121, fn123, netnights = FALSE)
 \item{fn121}{a valid FN121 table}
 
 \item{fn123}{a valid FN123 table}
+
+\item{netnights}{specifies whether catch totals should be standarizded to a 24 hour net set}
+
+\item{autofill}{specifies whether standardize catch should run fill.CATCNT or fill.CATWT}
 }
 \description{
 merges FN121 to FN123 and generates a catch table

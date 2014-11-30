@@ -3,7 +3,7 @@
 \alias{area.cue}
 \title{area.cue}
 \usage{
-area.cue(NorC, fn121, fn123, psuedo = T)
+area.cue(NorW, fn121, fn123, psuedo = T)
 }
 \description{
 makes area cue
